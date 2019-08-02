@@ -1,0 +1,53 @@
+.TableRowRoot {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.TableRowRoot:hover {
+    background-color: #0071b510;
+    -webkit-box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    -moz-box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+}
+
+.TableRowCell {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.TableRowIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.TableRowInputName {
+    font-size: 16px;
+    padding: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    -moz-box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    border: none;
+}
+
+.TableRowDownload {
+    color: #cccccc;
+    font-style: italic;
+}
+
+.TableRowActionCell {
+    padding: 5px;
+}
+
+.TableRowActionSelect {
+    width: 100%;
+    cursor: pointer;
+}

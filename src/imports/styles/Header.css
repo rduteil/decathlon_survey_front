@@ -1,0 +1,62 @@
+.HeaderRoot {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: linear-gradient(to bottom, #191919, #0071b5);
+}
+
+.HeaderRoot * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderLogo {
+    margin: 5px;
+    max-height: 40px;
+    width: auto;
+}
+
+.HeaderLink {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.HeaderLink:hover {
+    background-color: #0071b5;
+}
+
+.HeaderLink:active {
+    background-color: #cccccc;
+    cursor: default;
+}
+
+.HeaderHint {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 15px 0 15px;
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.HeaderGreetings {
+    font-size: 17px;
+    margin-left: auto;
+    color: #ffffff;
+    padding-right: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

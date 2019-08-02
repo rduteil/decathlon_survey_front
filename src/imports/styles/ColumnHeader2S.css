@@ -1,0 +1,51 @@
+.ColumnHeader2SRoot {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    height: 35px;
+    background-color: #191919;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.ColumnHeader2SRoot:hover {
+    background-color: #0071b5;
+    color: #ffffff;
+}
+
+.ColumnHeader2SRoot:active {
+    background-color: #cccccc;
+    cursor: default;
+}
+
+.ColumnHeader2SName {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 10px;
+    user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ColumnHeader2SSearch {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.ColumnHeader2SSearchField {
+    padding-left: 2px;
+    border: none;
+    width: 100%;
+}
+
+.ColumnHeader2SSymbol {
+    min-width: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

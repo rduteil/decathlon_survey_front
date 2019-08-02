@@ -1,0 +1,40 @@
+.ColumnHeaderSRoot {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    height: 35px;
+    background-color: #191919;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.ColumnHeaderSRoot:hover {
+    background-color: #0071b5;
+    color: #ffffff;
+}
+
+.ColumnHeaderSRoot:active {
+    background-color: #cccccc;
+    cursor: default;
+}
+
+.ColumnHeaderSName {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 10px;
+    user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ColumnHeaderSSymbol {
+    min-width: 1vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
