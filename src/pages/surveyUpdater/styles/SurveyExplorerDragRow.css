@@ -1,0 +1,53 @@
+.SurveyExplorerDragRowRoot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.SurveyExplorerDragRowRoot * {
+    user-select: none;
+}
+
+.Orange {
+    color: #ec6607;
+}
+
+.Orange:hover {
+    background-color: #ec660710;
+    -webkit-box-shadow: inset 0 0 0.1vw 0.1vw #ec6607;
+    -moz-box-shadow: inset 0 0 0.1vw 0.1vw #ec6607;
+    box-shadow: inset 0 0 0.1vw 0.1vw #ec6607;
+    cursor: pointer;    
+}
+
+.Blue {
+    color: #0071b5;
+}
+
+.Blue:hover {
+    background-color: #0071b510;
+    -webkit-box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    -moz-box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    box-shadow: inset 0 0 0.1vw 0.1vw #0071b5;
+    cursor: pointer;
+}
+
+.SurveyExplorerDragRowRoot:active {
+    background-color: #0071b530;
+}
+
+.SurveyExplorerDragRowItem {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.SurveyExplorerDragRowAction {
+    width: 100%;
+}
+
+.SurveyExplorerDragRowAction * {
+    padding: 10px;
+    overflow: visible;
+}

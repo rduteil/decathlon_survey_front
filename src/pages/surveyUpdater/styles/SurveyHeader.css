@@ -1,0 +1,189 @@
+.SurveyHeaderRoot {
+    display: flex;
+    flex-direction: column;
+    background-color: #19191910;
+}
+
+.SurveyHeaderTitle {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow:hidden;
+    padding: 10px;
+    margin: 2px;
+    font-weight: bold;
+    color: #ec6607;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}
+
+.SurveyHeaderBody {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SurveyHeaderNameDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.SurveyHeaderName {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin: 2px 0 2px 0;
+    padding: 10px;
+}
+
+.SurveyHeaderDescriptionDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.SurveyHeaderDescription {
+    width: 100%;
+    margin: 2px 0 2px 0;
+}
+
+.SurveyHeaderParameters {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.SurveyHeaderParameterDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+}
+
+.SurveyHeaderParameterName {
+    flex: 1;
+    min-width: 200px;
+}
+
+.SurveyHeaderParameterInput {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    min-width: 200px;
+}
+
+.SurveyHeaderDateWrapper:after {
+    content: '▼';
+    position: relative;
+    margin-left: -20px;
+    pointer-events: none;
+}
+
+.SurveyHeaderDate {
+    cursor: pointer;
+}
+
+.SurveyHeaderLink {
+    border: none;
+    color: #0071b5;
+}
+
+.SurveyHeaderRemoveDateButton {
+    margin-left: 15px;
+    font-weight: bold;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.SurveyHeaderRemoveDateButton:hover {
+    background-color: #ffffff;
+    color: #ec6607;
+}
+
+.SurveyHeaderCopyLink {
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.SurveyHeaderCopyLink:hover {
+    background-color: #ffffff;
+    color: #0075b1;
+}
+
+.SurveyHeaderCopyLink:active {
+    cursor: default;
+}
+
+.SurveyHeaderImageWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.SurveyHeaderImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px dashed #19191950;
+    border-radius: 2px;
+    min-width: 15vw;
+    min-height: 15vw;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.SurveyHeaderImage:hover {
+    background-color: #ffffff;
+}
+
+.SurveyHeaderImage:hover .SurveyHeaderImageRemover {
+    border: 1px solid #19191920;
+    background-color: #f1f1f1;
+    color: #191919;
+}
+
+.SurveyHeaderImagePlaceholder {
+    width: 96px;
+    height: 96px;
+}
+
+.SurveyHeaderImageDisplayer {
+    max-width: 100%;
+    max-height: 25vw;
+    width: auto;
+    height: auto;
+}
+
+.SurveyHeaderImageRemover {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #00000000;
+    background-color: #00000000;
+    border: 1px solid #00000000;
+    border-radius: 2px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.SurveyHeaderImageRemover:hover {
+    background-color: #ffffff !important;
+    color: #ec6607 !important;
+}
+
+.SurveyHeaderImageRemover:active {
+    cursor: default;
+}

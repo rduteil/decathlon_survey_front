@@ -1,0 +1,47 @@
+.UsersTableCommand {
+    font-size: 1.25vw;
+    padding: 0.5vw;
+}
+
+.UsersTableButton {
+    margin:  0 1vw 0 1vw;
+    border: none;
+    cursor: pointer;
+    padding: 0.5vw;
+}
+
+.UsersTableButton:hover {
+    background-color: #0071b5;
+    color: #ffffff;
+}
+
+.UsersTableButton:active {
+    background-color: #0083C1;
+    color: #cccccc;
+    cursor: default;
+}
+
+.UsersTableHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.UsersTableBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.UsersTableFooter {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5vw;
+    background-color: #191919;
+    color: #ffffff;
+    border-top: 2px solid #ffffff
+}
+
+.Clicked {
+    background-color: #0071b5;
+    color: #ffffff;
+}

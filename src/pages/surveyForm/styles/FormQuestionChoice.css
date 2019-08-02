@@ -1,0 +1,40 @@
+.FormQuestionTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.FormQuestionLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormQuestionRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FormQuestionCell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.FormQuestionCellImage {
+    max-width: 6vw;
+    max-height: 6vw;
+    height: auto;
+    width: auto;
+    border-radius: 2px;
+}

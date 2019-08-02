@@ -1,0 +1,34 @@
+.SurveyCongratulationRoot {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #19191910;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+.SurveyCongratulationHint {
+    margin-top: 10px;
+}
+
+.SurveyCongratulationReturn {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border 0.5s ease, color 0.5s ease;
+}
+
+.SurveyCongratulationReturn:hover {
+    border: 1px solid #0075b1;
+    color: #0075b1;
+}
+
+.SurveyCongratulationReturn:active {
+    cursor: default;
+}

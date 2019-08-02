@@ -1,0 +1,124 @@
+.FormQuestionScaleLabelsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.FormQuestionScaleLabelDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    min-height: 60px;
+    padding: 5px;
+}
+
+.FormQuestionScaleImageDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FormQuestionScaleImage {
+    max-width: 8vw;
+    max-height: 5vw;
+    width: auto;
+    height: auto;
+}
+
+.FormQuestionScaleLabel {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.FormQuestionScaleTicksDivMinus20 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px calc(10% - 5px) 5px calc(10% - 5px);
+}
+
+.FormQuestionScaleTicksDivPlus20 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px calc(10% + 2.5px) 5px calc(10% + 2.5px);
+    max-width: calc(80% + 5px);
+    overflow-x: hidden;
+}
+
+.FormQuestionScaleTickMinus20 {
+    color: #0075b1;
+    width: 15px;
+    padding-left: 4px;
+    font-size: 15px;
+    border-bottom: 1px solid #0075b1;
+    border-left: 1px solid #0075b1;
+}
+
+.FormQuestionScaleTickPlus20 {
+    color: #0075b1;
+    height: 15px;
+    border-left: 1px solid #0075b1;    
+}
+
+.FormQuestionScaleSliderDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 2px;
+}
+
+.FormQuestionScaleSlider {
+    -webkit-appearance: none;
+    width: 80%;
+    z-index: 10;
+}
+
+.FormQuestionScaleSlider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #191919;
+}
+
+.FormQuestionScaleSlider:hover {
+    cursor: pointer;
+}
+
+.FormQuestionScaleSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -15px;
+    width: 5px;
+    height: 30px;
+    border-radius: 2px;
+    background: #ec6607;
+}
+
+.FormQuestionScaleSlider::-moz-range-thumb {
+    border: none;
+    width: 5px;
+    height: 30px;
+    border-radius: 2px;
+    background: #ec6607;
+}
+
+.FormQuestionScaleSelectedValue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.FormQuestionScaleGradient {
+    width: 80%;
+    height: 7vh;
+    margin-left: 10%;
+    vertical-align: top;
+}

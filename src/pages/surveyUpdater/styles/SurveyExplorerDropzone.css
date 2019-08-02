@@ -1,0 +1,4 @@
+.SurveyExplorerDropzoneRoot {
+    display: flex;
+    flex-direction: column;
+}

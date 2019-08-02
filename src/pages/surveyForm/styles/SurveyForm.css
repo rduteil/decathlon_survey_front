@@ -1,0 +1,147 @@
+.SurveyFormRoot {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #19191910;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+}
+
+.SurveyFormLoading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SurveyFormError {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ff0000;
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.SurveyFormInputDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.SurveyFormPassword {
+    margin: 10px;
+    padding: 5px;
+}
+
+.SurveyFormSubmitPassword {
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border 0.5s ease, color 0.5s ease;
+}
+
+.SurveyFormSubmitPassword:hover {
+    border: 1px solid #0075b1;
+    color: #0075b1;
+}
+
+.SurveyFormSubmitPassword:active {
+    cursor: default;
+}
+
+.SurveyFormWrong {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ff0000;
+    width: 100%;
+    height: 100%;   
+}
+
+.SurveyFormSubmitDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.SurveyFormSubmitAnswer {
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border 0.5s ease, color 0.5s ease;
+}
+
+.SurveyFormSubmitAnswer:hover {
+    border: 1px solid #0075b1;
+    color: #0075b1;
+}
+
+.SurveyFormSubmitAnswer:active {
+    cursor: default;
+}
+
+.MessageBarDiv {
+    float: left;
+    right: 0;
+    top: 20%;
+    padding: 10px;
+    position: fixed;
+}
+
+.MessageBar {
+    min-width: 100px;
+    background-color: #191919;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.MessageBar:hover {
+    opacity: 0.75;
+}
+
+.MessageBar-enter {
+    opacity: 0.01;
+}
+  
+.MessageBar-enter.MessageBar-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+  
+.MessageBar-leave {
+    opacity: 1;
+}
+  
+.MessageBar-leave.MessageBar-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+  
+.MessageBar-appear {
+    opacity: 0.01;
+}
+
+  .MessageBar-appear.MessageBar-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+  
+  
+  

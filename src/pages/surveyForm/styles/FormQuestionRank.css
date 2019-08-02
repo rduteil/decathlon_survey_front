@@ -1,0 +1,54 @@
+.FormQuestionDropzoneRoot {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: calc(50% - 4px);
+    padding-bottom: 50px;
+    margin: 2px;
+    border: 2px dashed #cccccc;
+}
+
+.FormQuestionDragRowLabel {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.FormQuestionDragRowRoot:hover {
+    background-color: #cccccc;
+}
+
+.FormQuestionDragRowRoot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    min-height: 3vw;
+    max-height: 6vw;
+}
+
+.FormQuestionDragRowImageDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormQuestionDragRowImage {
+    margin: 2px;
+    max-width: 5vw;
+    max-height: 5vw;
+    width: auto;
+    height: auto;
+}
+
+.FormQuestionRankLabel {
+    padding: 2px;
+    margin: 2px 2px 2px 50%;
+    border-radius: 2px;
+    border: 1px solid #19191920;
+    text-align: center;
+}

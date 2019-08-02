@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed');
+
+* {
+  font-family: 'Roboto Condensed';
+}
+
+*:focus {
+  outline: 0;
+}
+
+*::-moz-focus-inner {
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}

@@ -1,0 +1,113 @@
+.QuestionScaleLabelsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-left: 7.5%;
+    padding-top: 5px;
+}
+
+.QuestionScaleLabelDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.QuestionScaleInputLabel {
+    max-width: calc(100% - 4px);
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+.QuestionScaleTicksDivMinus20 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 calc(15% - 5px) 10px calc(15% - 5px);
+}
+
+.QuestionScaleTicksDivPlus20 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 calc(15% + 2.5px) 10px calc(15% + 2.5px);
+    max-width: calc(70% + 5px);
+    overflow-x: hidden;
+}
+
+.QuestionScaleTickMinus20 {
+    color: #0075b1;
+    width: 15px;
+    padding-left: 4px;
+    font-size: 15px;
+    border-bottom: 1px solid #0075b1;
+    border-left: 1px solid #0075b1;
+}
+
+.QuestionScaleTickPlus20 {
+    color: #0075b1;
+    height: 15px;
+    border-left: 1px solid #0075b1;    
+}
+
+.QuestionScaleSliderDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.QuestionScaleSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    z-index: 10;
+}
+
+.QuestionScaleSlider::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #191919;
+}
+
+.QuestionScaleSlider:hover {
+    cursor: pointer;
+}
+
+.QuestionScaleSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -14px;
+    width: 5px;
+    height: 30px;
+    border-radius: 2px;
+    background: #ec6607;
+}
+
+.QuestionScaleSlider::-moz-range-thumb {
+    border: none;
+    width: 5px;
+    height: 30px;
+    border-radius: 2px;
+    background: #ec6607;
+}
+
+.QuestionScaleDisplayDiv {
+    width: 70%;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuestionScaleGradient {
+    width: 100%;
+    height: 7vh;
+    top: 2px;
+    position: relative;
+}

@@ -1,0 +1,99 @@
+.SurveyBodyRoot {
+    display: flex;
+    flex-direction: column;
+    background-color: #19191910;
+    min-height: 75vh;
+    padding-bottom: 5px;
+}
+
+.SurveyBodyTitle {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow:hidden;
+    padding: 10px;
+    margin: 2px;
+    font-weight: bold;
+    color: #ec6607;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}
+
+.SurveyBodyNewRowDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.SurveyBodyNewRow {
+    width: 50%;
+    margin: 0 2px 0 2px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow:hidden;
+    transition: color 0.5s ease, border 0.5s ease;
+}
+
+.NewSection:hover {
+    border: 1px solid #ec6607;
+    color: #ec6607;
+}
+
+.NewQuestion:hover {
+    border: 1px solid #0071b5;
+    color: #0071b5;
+}
+
+.SurveyBodyQuestions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 75vh;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+.SurveyBodyToggleHangoutDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.SurveyBodyToggleHangoutButton {
+    font-size: 18px;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.1s ease;
+}
+
+.SurveyBodyToggleHangoutButton:hover {
+    background-color: #19191930;
+}
+
+.SurveyBodyAddQuestionDiv {
+    padding-top: 0.5vw;
+    width: 100%;
+    display: flex;
+}
+
+.SurveyBodyAddQuestionButton {
+    border: none;
+    background-color: #cccccc;
+    font-size: 1.05vw;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5vw;
+}
+
+.SurveyBodyAddQuestionButton:hover {
+    background-color: #0075b1;
+    color: #ffffff
+}

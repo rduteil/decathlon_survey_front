@@ -1,0 +1,48 @@
+.LoginPageRoot {
+    position: relative;
+    top: 75px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginPageUsername {
+    margin-top: 20px;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.LoginPagePassword {
+    margin-top: 20px;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.LoginPageError {
+    color: #ff0000;
+}
+
+.LoginPageSubmit {
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border 0.5s ease, color 0.5s ease;
+}
+
+.LoginPageSubmit:hover {
+    border: 1px solid #0075b1;
+    color: #0075b1;
+}
+
+.LoginPageSubmit:active {
+    cursor: default;
+}

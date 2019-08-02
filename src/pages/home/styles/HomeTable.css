@@ -1,0 +1,150 @@
+.HomeTableRoot {
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeTable {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 2px;
+    border-radius: 2px;  
+}
+
+.HomeTableFixedTop {
+    position: fixed;
+    top: 50px;
+    padding: 2px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.HomeTablePath {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 2px;
+    background-color: #19191910;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}
+
+.HomeTablePathIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.HomeTablePathPaneBugFixer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeTablePathHoverableIcon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+}
+
+.HomeTablePathElement {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.5s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.HomeTablePathElementDisabled {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.HomeTablePathElement:hover {
+    background-color: #19191920;
+}
+
+.HomeTablePathSeparator {
+    padding: 5px;
+    font-size: 10px;
+}
+
+.HomeTablePathPane {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    padding: 2px;
+    background-color: #0071b5;
+    border-radius: 14px;
+    color: #ffffff;
+    min-width: 28px;
+    max-width: 28px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-width 1s ease-in-out;
+}
+
+.HomeTablePathPane:hover {
+    max-width: 75%;
+}
+
+.HomeTablePathPane:hover .HomeTablePathPaneButtonHidden {
+    width: 100%;
+}
+
+.HomeTablePathPane:hover .HomeTablePathHoverableIcon {
+    transform: rotate(405deg);    
+}
+
+.HomeTablePathPaneButton {
+    margin: 0 2px 0 2px;
+    padding: 2px 10px 2px 10px;
+    cursor: pointer;
+    border-radius: 14px;
+    transition: background-color 0.5s ease;
+}
+
+.HomeTablePathPaneButton:hover {
+    background-color: #191919;
+}
+
+.HomeTableHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: #19191910;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}
+
+.HomeTableBody {
+    margin-top: 82px;
+    margin-bottom: 32px;
+}
+
+.HomeTableFixedBottom {
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+    width: 100%;
+    background-color: #ffffff;    
+}
+
+.HomeTableFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #19191910;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}

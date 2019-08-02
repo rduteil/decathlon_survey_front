@@ -1,0 +1,31 @@
+.LibraryPopUpTable {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 2px;
+    margin-top: 2px;
+    border-radius: 2px;
+}
+
+.LibraryPopUpTableHeader {
+    display: flex;
+    flex-direction: row;
+    background-color: #ccc;
+    border-radius: 2px;
+    padding-right: 18px;
+}
+
+.LibraryPopUpTableBody {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.LibraryPopUpTableFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 2px;
+}

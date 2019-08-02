@@ -1,0 +1,131 @@
+.SurveyExplorerRoot {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    max-width: 50%;
+    min-height: calc(100% - 88px);
+    max-height: calc(100% - 88px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #19191910;
+}
+
+.SurveyExplorerResizer {
+    border-left: 1px solid #19191920;
+    border-right: 1px solid #19191920;
+    width: 6px;
+    cursor: col-resize;
+    z-index: 10;
+}
+
+.SurveyExplorerWrapper {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 6px);
+}
+
+.SurveyExplorerTitle {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow:hidden;
+    padding: 10px;
+    margin: 2px;
+    font-weight: bold;
+    color: #ec6607;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}
+
+.SurveyExplorerTable {
+    margin: 2px 2px 0 2px;
+    border: 1px solid #19191920;
+    background-color: #ffffff;
+}
+
+.SurveyExplorerNewRowDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.SurveyExplorerNewSection {
+    width: 50%;
+    margin: 0 2px 0 2px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow:hidden;
+    transition: color 0.5s ease, border 0.5s ease;
+}
+
+.SurveyExplorerNewSection:hover {
+    border: 1px solid #ec6607;
+    color: #ec6607;
+}
+
+.SurveyExplorerNewQuestion {
+    width: 50%;
+    margin: 0 2px 0 2px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow:hidden;
+    transition: border 0.5s ease, color 0.5s ease;    
+}
+
+.SurveyExplorerNewQuestion:hover {
+    border: 1px solid #0071b5;
+    color: #0071b5;
+}
+
+.SurveyExplorerToggleHangoutDiv {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.SurveyExplorerToggleHangoutButton {
+    font-size: 15px;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.1s ease;
+}
+
+.SurveyExplorerToggleHangoutButton:hover {
+    background-color: #19191930;
+}
+
+.SurveyExplorerHeader {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 18px);
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.SurveyExplorerCell {
+    border: 1px solid #19191920;
+    white-space: nowrap;
+    overflow:hidden;
+    border-radius: 2px;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.SurveyExplorerRows {
+    height: calc(100vh - 235px);
+    overflow-y: scroll;
+}

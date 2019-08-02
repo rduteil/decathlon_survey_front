@@ -1,0 +1,153 @@
+.SectionRoot {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ec6607;
+    background-color: #19191910;
+    border-radius: 2px;
+    padding: 4px;
+    margin: 6px;
+}
+
+.SectionRow {
+    width: 100%;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.SectionLeftBlock {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SectionRightBlock {
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.SectionName {    
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.SectionDescription {
+    width: 100%;
+    resize: none;
+}
+
+.SectionRemoveButton {
+    padding: 5px;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.SectionRemoveButton:hover {
+    background-color: #ffffff;
+    color: #ec6607;
+}
+
+.SectionImageWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.SectionImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px dashed #19191950;
+    border-radius: 2px;
+    min-width: 8vw;
+    min-height: 8vw;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.SectionImage:hover {
+    background-color: #ffffff;
+}
+
+.SectionImage:hover .SectionImageRemover {
+    border: 1px solid #19191920;
+    background-color: #f1f1f1;
+    color: #191919;
+}
+
+.SectionImagePlaceholder {
+    width: 64px;
+    height: 64px;
+}
+
+.SectionImageDisplayer {
+    max-width: 100%;
+    max-height: 12vw;
+    width: auto;
+    height: auto;
+}
+
+.SectionImageRemover {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #00000000;
+    background-color: #00000000;
+    border: 1px solid #00000000;
+    border-radius: 2px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.SectionImageRemover:hover {
+    background-color: #ffffff !important;
+    color: #ec6607 !important;
+}
+
+.SectionImageRemover:active {
+    cursor: default;
+}
+.SectionNewRowDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.SectionNewRow {
+    flex: 1;
+    margin: 0 2px 0 2px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow:hidden;
+    transition: color 0.5s ease, border 0.5s ease;
+}
+
+.NewSection:hover {
+    border: 1px solid #ec6607;
+    color: #ec6607;
+}
+
+.NewQuestion:hover {
+    border: 1px solid #0071b5;
+    color: #0071b5;
+}

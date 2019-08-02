@@ -1,0 +1,88 @@
+.UserUpdaterRoot {
+    position: relative;
+    background-color: #19191910;
+    top: 90px;
+    height: calc(100vh - 90px);
+}
+
+.UserUpdaterLoading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserUpdaterError {
+    color: #FF0000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserUpdaterBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserUpdaterTitle {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    overflow:hidden;
+    width: calc(100% - 4px);
+    padding: 10px 0 10px 0;
+    margin: 2px;
+    font-weight: bold;
+    color: #ec6607;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+}
+
+.UserUpdaterLine{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.UserUpdaterHintDiv {
+    padding: 5px;
+    margin-left: 35%;
+    width: 15%;
+}
+
+.UserUpdaterInputDiv {
+    padding: 5px;
+    display: flex;
+    flex-direction:row;
+    align-self:stretch;
+    width: 15%;
+}
+
+.UserUpdaterInputDiv * {
+    width: 100%;
+}
+
+.UserUpdaterTogglePasswordButton {
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid #19191920;
+    border-radius: 2px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: border 0.5s ease, color 0.5s ease;
+}
+
+.UserUpdaterTogglePasswordButton:hover {
+    border: 1px solid #0071b5;
+    color: #0071b5;
+}
+
+.UserUpdaterTogglePasswordButton:active {
+    cursor: default;
+}
